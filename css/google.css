@@ -1,0 +1,150 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color:white;
+    width: 100%;
+    height: 5vh;
+    top:35px;
+}
+.li{
+    float: left;
+    color: black;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.li2 {
+    float: right;
+    padding-right: 30px;
+
+}
+
+
+.li > button {
+    width: 100px;
+    background-color: #1A73E8;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.center {
+    position: relative;
+    background-color: white;
+    width: 80%;
+    margin:0 auto;
+    height: calc(100vh - 15vh);
+}
+
+.maintop {
+    position:absolute;
+    width: 500px;
+    margin: 0 auto; 
+    top: 25%;
+    left: 35%;   
+    text-align: center;
+    background-color:white;
+    
+}
+
+input {
+    left: 80px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: left;
+}   
+
+.search{
+    border: 1px solid #EBEBEB;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+}
+
+.search:hover{
+    box-shadow: 3px 3px 5px rgba(192, 191, 191, 0.781);
+}
+
+.search > i {
+    float: left;
+    padding: 14px;
+    font-size: 1.2rem;
+    color: #B3B3B3;
+}
+.search > i2 {
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 50px;
+    font-size: 1.3rem;
+    color: #B3B3B3;
+}
+.search > i3 {
+    position: relative;
+    top: 10px;
+    float: right;
+    left: 10px;
+    font-size: 1.3rem;
+    color: #B3B3B3;
+}
+
+
+.buttons > button {
+    margin-top: 70px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: none;
+}
+.buttons > button:hover {
+    border: 1px solid rgba(192, 191, 191, 0.781);
+    box-shadow: 1px 1px 3px rgba(192, 191, 191, 0.781);
+}
+button {
+    border-style: 0px solid rgba(241, 237, 237, 0.425);
+    color: #323034;
+    width: 120px;
+    height: 35px;
+}
+
+
+.bottom1 {
+    clear: both;
+    background-color: rgba(222, 222, 222, 0.425);
+    width: 100%;
+    height: 5vh;
+}
+
+.list{
+    float: left;
+    color: grey;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.bottom2 {
+    border-top: 1px solid rgba(192, 190, 190, 0.74);
+    background-color: rgba(222, 222, 222, 0.425);
+    width: 100%;
+    height: 5vh;
+}
+.list1 {
+    float: left;
+    font-size: 14px;
+}
+.list2 {
+    float: right;
+    padding-right: 30px;
+    font-size: 14px;
+
+}
+
+
+
