@@ -2,6 +2,11 @@
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dbg {
+    border: 1px dotted red;
 }
 
 a:link { 
@@ -127,7 +132,7 @@ input {
 
 
 .buttons > button {
-    margin-top: 70px;
+    margin-top: 53px;
     background-color: #f8f9fa;
     border-radius: 5px;
     border: none;
@@ -172,8 +177,4 @@ button {
     float: right;
     padding-right: 30px;
     font-size: 14px;
-
 }
-
-
-
